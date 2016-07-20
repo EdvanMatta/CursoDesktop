@@ -24,5 +24,12 @@ namespace CursoDesktop
             formCadastrarCliente.MdiParent = this.MdiParent;
             formCadastrarCliente.Show();
         }
+
+        private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastarProduto formCadastrarProduto = new CadastarProduto();
+            formCadastrarProduto.MdiParent = this.MdiParent;
+            formCadastrarProduto.Show();
+        }
     }
 }

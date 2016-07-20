@@ -50,6 +50,12 @@
     <Compile Include="CadastarCliente.Designer.cs">
       <DependentUpon>CadastarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastarProduto.Designer.cs">
+      <DependentUpon>CadastarProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs" />
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CadastarCliente.resx">
       <DependentUpon>CadastarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastarProduto.resx">
+      <DependentUpon>CadastarProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
