@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastarCliente.Designer.cs">
+      <DependentUpon>CadastarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs" />
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
@@ -59,6 +65,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CadastarCliente.resx">
+      <DependentUpon>CadastarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InserirCliente.resx">
       <DependentUpon>InserirCliente.cs</DependentUpon>
     </EmbeddedResource>
