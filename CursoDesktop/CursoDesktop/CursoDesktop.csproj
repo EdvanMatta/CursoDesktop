@@ -51,8 +51,17 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="InserirCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InserirCliente.Designer.cs">
+      <DependentUpon>InserirCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="InserirCliente.resx">
+      <DependentUpon>InserirCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

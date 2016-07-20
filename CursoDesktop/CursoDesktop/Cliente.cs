@@ -11,7 +11,7 @@ namespace CursoDesktop
         public int codigo { get; set; }
         public String nome { get; set; }
         public int idade { get; set; }
-        public long telefone { get; set; }
+        public String telefone { get; set; }
         public char sexo { get; set; }
         public String endereco { get; set; }
     }
